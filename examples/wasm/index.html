@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        canvas {
+            width: 80% !important;
+            height: 80% !important;
+            display: block;
+            outline: none;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/chaosprint/glicol@latest/js/src/glicol.js"></script>
+</head>
+
+<body style="margin: 0px;">
+    <div>
+        press digit 1, 2, 3 to mute/unmute tracks.
+    </div>
+    <script type="module">
+        import init from './bevy_glicol_wasm.js'
+
+        init().catch((error) => {
+            if (!error.message.startsWith("Using exceptions for control flow, don't mind me. This isn't actually an error!")) {
+                throw error;
+            }
+        });
+    </script>
+</body>
+
+</html>
