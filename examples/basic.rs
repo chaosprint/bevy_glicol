@@ -1,6 +1,5 @@
 use bevy::prelude::*;
-use bevy_glicol::*;
-// use bevy_kira_audio::prelude::*;
+use bevy_glicol::prelude::*;
 
 fn main() {
     App::new()
