@@ -1,0 +1,5 @@
+/target
+/examples/wasm/target
+
+bevy_glicol_wasm_bg.wasm
+bevy_glicol_wasm.js

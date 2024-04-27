@@ -1,0 +1,19 @@
+[package]
+name = "bevy_glicol"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.82"
+bevy = "0.13.2"
+cpal = "0.15.3"
+glicol = "0.13.5"
+glicol_synth = "0.13.5"
+parking_lot = "0.12.2"
+
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = "0.2.92"
+web-sys = "0.3.69"
