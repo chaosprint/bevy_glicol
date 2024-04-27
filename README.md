@@ -4,7 +4,7 @@ plugin for bevy to play procedural audio with [glicol](https://glicol.org).
 
 | bevy | bevy_glicol |
 | ---- | ----------- |
-| 0.5  | 0.1         |
+| 0.13  | 0.1         |
 
 ## why
 
