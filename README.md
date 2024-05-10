@@ -4,7 +4,7 @@ plugin for bevy to play procedural audio with [glicol](https://glicol.org).
 
 | bevy | bevy_glicol |
 | ---- | ----------- |
-| 0.13  | 0.1         |
+| 0.13 | 0.1         |
 
 ## why
 
@@ -26,7 +26,7 @@ see the examples/wasm/ folder for an example.
 
 ## usage
 
-see the examples folder
+see the [examples](./examples/) folder
 
 run with caution for unpleasant loud sounds!
 

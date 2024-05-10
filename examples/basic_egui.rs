@@ -13,7 +13,6 @@ fn main() {
         .add_plugins(EguiPlugin)
         .add_systems(Update, play_tone)
         .add_systems(Update, audio_control_ui)
-        .add_event::<PlayTone>()
         .run()
 }
 
